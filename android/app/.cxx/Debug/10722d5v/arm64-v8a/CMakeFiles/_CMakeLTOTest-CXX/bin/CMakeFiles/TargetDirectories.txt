@@ -1,0 +1,4 @@
+/Users/akshaywazir/Documents/GitHub/React-Native-CLI-base-app-Setup/android/app/.cxx/Debug/10722d5v/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/foo.dir
+/Users/akshaywazir/Documents/GitHub/React-Native-CLI-base-app-Setup/android/app/.cxx/Debug/10722d5v/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/boo.dir
+/Users/akshaywazir/Documents/GitHub/React-Native-CLI-base-app-Setup/android/app/.cxx/Debug/10722d5v/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/edit_cache.dir
+/Users/akshaywazir/Documents/GitHub/React-Native-CLI-base-app-Setup/android/app/.cxx/Debug/10722d5v/arm64-v8a/CMakeFiles/_CMakeLTOTest-CXX/bin/CMakeFiles/rebuild_cache.dir

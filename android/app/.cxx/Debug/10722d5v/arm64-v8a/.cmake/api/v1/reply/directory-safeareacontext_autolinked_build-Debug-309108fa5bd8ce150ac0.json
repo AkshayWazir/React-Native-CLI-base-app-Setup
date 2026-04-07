@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "safeareacontext_autolinked_build",
+		"source" : "/Users/akshaywazir/Documents/GitHub/React-Native-CLI-base-app-Setup/node_modules/react-native-safe-area-context/android/src/main/jni"
+	}
+}

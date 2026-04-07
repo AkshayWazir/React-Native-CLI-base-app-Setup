@@ -1,0 +1,1 @@
+/Users/akshaywazir/Documents/GitHub/RNC_baseSetup/android/app/build/intermediates/cxx/Debug/213u3m2j/obj/arm64-v8a
