@@ -1,0 +1,145 @@
+# =========================
+# Node / React Native
+# =========================
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json.bak
+
+# Metro
+.metro-health-check*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Bundle output
+*.bundle
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Android
+# =========================
+
+# Build files
+android/build/
+android/app/build/
+android/.gradle/
+android/gradle-app.setting
+
+# Local config
+android/local.properties
+
+# Keystore files (IMPORTANT)
+*.keystore
+*.jks
+*.pem
+
+# Android Studio
+*.iml
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# NDK
+android/.cxx/
+
+# =========================
+# iOS
+# =========================
+
+# Build
+ios/build/
+DerivedData/
+
+# Pods (can regenerate)
+ios/Pods/
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+
+# Xcode logs
+*.xcscmblueprint
+*.xccheckout
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# =========================
+# CocoaPods
+# =========================
+
+# Keep Podfile.lock but ignore pods
+# (important for reproducible builds)
+
+# =========================
+# React Native generated
+# =========================
+
+.expo/
+.expo-shared/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache
+.cache/
+*.cache
+
+# =========================
+# Testing
+# =========================
+
+coverage/
+jest-cache/
+
+# =========================
+# Misc
+# =========================
+
+*.orig
+*.rej
+
+# Mac
+*.plist
+
+# =========================
+# Optional (uncomment if needed)
+# =========================
+
+# Firebase configs (if sensitive)
+# GoogleService-Info.plist
+# google-services.json
+
+# Sentry
+# .sentryclirc
+
+# Secrets
+# secrets.json
