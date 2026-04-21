@@ -39,11 +39,11 @@ export function HomeScreen({ navigation }: { navigation: any }) {
     }, [])
 
     useEffect(() => {
-        console.log("Data from API: ", data);
+        console.log("Data : ", data);
     }, [data]);
 
     useEffect(() => {
-        console.log("Data from API: ", isLoading);
+        console.log("Loading : ", isLoading);
     }, [isLoading]);
 
     return (

@@ -62,3 +62,7 @@ npm run ios
 # or
 yarn ios
 ```
+
+## Tips
+
+To view logs just press 'j' in the terminal.
