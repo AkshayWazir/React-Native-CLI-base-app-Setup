@@ -1,7 +1,8 @@
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Button, Pressable, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { sampleApi } from '../api/sample';
 import { useEffect } from 'react';
+import ReactNativeBiometrics from 'react-native-biometrics'
 
 const styles = StyleSheet.create({
     container: {
@@ -29,6 +30,8 @@ const styles = StyleSheet.create({
     },
 });
 
+const rnBiometrics = new ReactNativeBiometrics()
+
 export function HomeScreen({ navigation }: { navigation: any }) {
     const safeAreaInsets = useSafeAreaInsets();
     const containerStyles = [styles.container, { paddingTop: safeAreaInsets.top, paddingBottom: safeAreaInsets.bottom }];
@@ -52,11 +55,13 @@ export function HomeScreen({ navigation }: { navigation: any }) {
             <Pressable onPress={() => navigation.navigate("Details")} style={{ padding: 12, backgroundColor: "blue", borderRadius: 8, width: 150, alignItems: "center" }}>
                 <Text style={{ color: "white" }}>Go to Details</Text>
             </Pressable>
+            <Button title="Confirm Fingerprint" onPress={() => rnBiometrics.simplePrompt({ promptMessage: 'Confirm fingerprint' })} />
             <View style={styles.preview}>
                 <Text style={styles.previewTitle}>React Navigation is integrated.</Text>
                 <Text style={styles.previewTitle}>{JSON.stringify(data)}</Text>
                 <Text style={styles.previewTitle}>{JSON.stringify(isLoading)}</Text>
             </View>
+
         </View>
     );
 }
